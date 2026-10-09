@@ -24,13 +24,12 @@ function SignalRevealText({
   as: Component = "p",
   className,
   delay = 0,
-  speed = 1050,
+  speed: _speed = 1050,
   style,
   text,
   ...props
 }: SignalRevealTextProps) {
   const prefersReducedMotion = useReducedMotion();
-  const duration = Math.min(Math.max(speed, 650), 1800);
   const words = text.trim().split(/\s+/);
   const wordStagger =
     words.length > 1 ? Math.min(80, 480 / (words.length - 1)) : 0;
