@@ -1,0 +1,139 @@
+You are given a task to integrate an existing React component in the codebase
+
+The codebase should support:
+- shadcn project structure  
+- Tailwind CSS
+- Typescript
+
+If it doesn't, provide instructions on how to setup project via shadcn CLI, install Tailwind or Typescript.
+
+Determine the default path for components and styles. 
+If default path for components is not /components/ui, provide instructions on why it's important to create this folder
+Copy-paste this component to /components/ui folder:
+```tsx
+signal-reveal-text.tsx
+"use client";
+
+import * as React from "react";
+import { motion, useReducedMotion } from "framer-motion";
+
+import { cn } from "@/lib/utils";
+
+import styles from "./signal-reveal-text-utils/signal-reveal-text.module.css";
+
+type SignalRevealStyle = React.CSSProperties & {
+  "--signal-accent": string;
+};
+
+export type SignalRevealTextProps = React.HTMLAttributes<HTMLElement> & {
+  accent?: string;
+  as?: React.ElementType;
+  delay?: number;
+  speed?: number;
+  text: string;
+};
+
+function SignalRevealText({
+  accent = "currentColor",
+  as: Component = "p",
+  className,
+  delay = 0,
+  speed = 1050,
+  style,
+  text,
+  ...props
+}: SignalRevealTextProps) {
+  const prefersReducedMotion = useReducedMotion();
+  const duration = Math.min(Math.max(speed, 650), 1800);
+  const words = text.trim().split(/\s+/);
+  const wordStagger =
+    words.length > 1 ? Math.min(80, 480 / (words.length - 1)) : 0;
+  const startDelay = Math.max(delay, 0);
+  const revealStyle = {
+    ...style,
+    "--signal-accent": accent,
+  } as SignalRevealStyle;
+  const loopDuration = (duration * 3.1) / 1000;
+
+  return (
+    <Component
+      data-slot="signal-reveal-text"
+      aria-label={text}
+      className={cn(styles.root, className)}
+      style={revealStyle}
+      {...props}
+    >
+      <span className={styles.copy} aria-hidden="true">
+        {words.map((word, index) => (
+          <React.Fragment key={`${word}-${index}`}>
+            <motion.span
+              className={styles.word}
+              initial={
+                prefersReducedMotion ? false : { opacity: 0, y: "0.2em" }
+              }
+              animate={
+                prefersReducedMotion
+                  ? { opacity: 1, y: 0 }
+                  : { opacity: [0, 1, 1, 0], y: ["0.2em", 0, 0, "-0.08em"] }
+              }
+              transition={{
+                delay: (startDelay + index * wordStagger) / 1000,
+                duration: prefersReducedMotion ? 0 : loopDuration,
+                ease: [0.22, 1, 0.36, 1],
+                repeat: prefersReducedMotion ? 0 : Infinity,
+                times: [0, 0.16, 0.8, 1],
+              }}
+            >
+              {word}
+            </motion.span>
+            {index < words.length - 1 ? " " : null}
+          </React.Fragment>
+        ))}
+      </span>
+    </Component>
+  );
+}
+
+export default SignalRevealText;
+export { SignalRevealText };
+
+
+demo.tsx
+import { SignalRevealText } from "@/components/ui/signal-reveal-text";
+
+export default function SignalRevealTextDemo() {
+  return (
+    <div className="flex min-h-[400px] w-full items-center justify-center bg-background p-10 text-foreground">
+      <SignalRevealText
+        as="h2"
+        text="A softer way to arrive."
+        speed={1050}
+        className="text-4xl md:text-5xl"
+      />
+    </div>
+  );
+}
+
+```
+
+Install NPM dependencies:
+```bash
+framer-motion
+```
+
+Implementation Guidelines
+ 1. Analyze the component structure and identify all required dependencies
+ 2. Review the component's argumens and state
+ 3. Identify any required context providers or hooks and install them
+ 4. Questions to Ask
+ - What data/props will be passed to this component?
+ - Are there any specific state management requirements?
+ - Are there any required assets (images, icons, etc.)?
+ - What is the expected responsive behavior?
+ - What is the best place to use this component in the app?
+
+Steps to integrate
+ 0. Copy paste all the code above in the correct directories
+ 1. Install external dependencies
+ 2. Fill image assets with Unsplash stock images you know exist
+ 3. Use lucide-react icons for svgs or logos if component requires them

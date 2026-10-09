@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Aura &amp; Stone CPA &amp; Advisory</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed-variant":"#304c41","tertiary-container":"#2c3449","background":"#fbf9f3","on-error-container":"#93000a","primary-fixed-dim":"#aecebe","surface":"#fbf9f3","surface-container-high":"#eae8e2","on-tertiary-fixed-variant":"#3f465c","on-secondary":"#ffffff","outline-variant":"#c1c8c3","tertiary-fixed-dim":"#bec6e0","on-background":"#1b1c18","inverse-primary":"#aecebe","primary-fixed":"#caeada","surface-tint":"#486458","primary":"#07241a","secondary-container":"#fed488","surface-bright":"#fbf9f3","on-primary-fixed":"#032017","tertiary-fixed":"#dae2fd","error-container":"#ffdad6","surface-container":"#f0eee8","secondary-fixed":"#ffdea5","surface-container-highest":"#e4e2dd","on-tertiary-container":"#959db5","secondary-fixed-dim":"#e9c176","inverse-surface":"#30312d","surface-variant":"#e4e2dd","surface-container-low":"#f5f3ed","on-primary":"#ffffff","on-error":"#ffffff","on-secondary-fixed-variant":"#5d4201","on-primary-container":"#86a496","outline":"#727974","on-tertiary-fixed":"#131b2e","surface-dim":"#dcdad4","on-tertiary":"#ffffff","on-secondary-fixed":"#261900","on-surface-variant":"#424844","tertiary":"#171f32","on-secondary-container":"#785a1a","surface-container-lowest":"#ffffff","error":"#ba1a1a","on-surface":"#1b1c18","secondary":"#775a19","primary-container":"#1e3a2f","inverse-on-surface":"#f3f1eb"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{gutter:"1.5rem","gutter-desktop":"2.5rem","space-md":"1rem","space-xl":"2.5rem","margin-desktop":"4.5rem","space-xs":"0.25rem","margin-tablet":"2.5rem","space-sm":"0.5rem","space-2xl":"4rem","space-lg":"1.5rem",margin:"1.25rem"},fontFamily:{"headline-lg":["Playfair Display"],"display-mobile":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],display:["Playfair Display"],"label-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"]},fontSize:{"headline-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.015em",fontWeight:"500"}],"display-mobile":["38px",{lineHeight:"46px",letterSpacing:"-0.015em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],display:["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"600"}],"headline-md":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"500"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"headline-sm":["22px",{lineHeight:"30px",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.04em",fontWeight:"600"}],"headline-lg-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.01em",fontWeight:"500"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-secondary/20 shadow-[0_4px_20px_-4px_rgba(7,36,26,0.05)]"><div class="h-20 max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group" data-path="practices-and-advisory" href="#"><img alt="Aura &amp; Stone CPA Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U9nKIEPkh1LSmnoWuzJI_17fYo61rqdxjXn98yh0Cj_U5vdaJevTFrcJPLQKYseQ8B49MhCpLDlZLz_Qj7Bwv2AFR-72tZio3G0ohijxtqPORH4eFHZ77x-bgKy7BiV2Ir4n0q1wL9gnY6uqheBveqJsTrEQzNW9h9-F00fEPbqTc5ac4xFYECQXpXYhVzEhA8zHBD6ayc2GrLQ9kJel1VOHbcPBT-ed0EWdZZPPMa1Gh6UiQod8qfww"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none group-hover:text-primary-container transition-colors">Aura &amp; Stone</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em] leading-none mt-1">CPA &amp; Advisory</span></div></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary border-b border-secondary pb-1 font-medium"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors py-1" data-path="practices-and-advisory" href="#">Practices &amp; Advisory</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors py-1" data-path="private-clients-and-founders" href="#">Private Clients &amp; Founders</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors py-1" data-path="philosophy-and-insights" href="#">Philosophy &amp; Insights</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors py-1" data-path="fee-architecture" href="#">Fee Architecture</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors px-3 py-2 border border-outline-variant/60 rounded-lg hover:border-primary-container" data-path="client-portal" href="#"><span class="material-symbols-outlined text-[18px]">lock</span><span class="font-label-md text-label-md uppercase tracking-wider">Client Vault</span></a><a class="inline-flex items-center justify-center bg-primary text-on-primary font-label-md text-label-md uppercase tracking-widest px-space-md py-3 rounded-lg hover:bg-primary-container transition-all shadow-[0_2px_8px_rgba(7,36,26,0.15)] border border-primary" data-path="schedule-consultation" href="#"><span class="hidden sm:inline">Schedule </span>Consultation</a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover border border-secondary/40 ring-2 ring-surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMUX5LZKqBoHUZBPmpRLl550eXesRXQm_ccHeEcvGB9YWFapjDVV8IDy_yYx0FZfnDtSK_Cv_4h5Y2VrLXcpmnxaF_2ey8qBONsSbpBe4mjkfiRGz8Tb8HhHd9uSdBbiffg3-yvZfdS55TQhN4DWfSTy6L6eER6Js6di7zzSftmLRDd5QsVcpuNmXipg3oYBtlAP_KSloSrsieSR_FYTyzlfPqtH_5BUGy0IpOVWyNkMaRSmdg-wJw"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Atmospheric Anchor -->
+<section class="relative w-full pt-12 pb-20 md:pb-28 overflow-hidden">
+<div class="absolute -top-32 right-[-10%] w-[680px] h-[680px] rounded-full bg-secondary-container/20 blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/2 left-[-15%] w-[520px] h-[520px] rounded-full bg-primary-fixed/25 blur-3xl pointer-events-none -z-10"></div>
+<div class="max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<!-- Breadcrumb / Overline Category -->
+<div class="flex items-center gap-space-sm mb-space-lg">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-[0.22em]">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+          Boutique Wealth, Tax &amp; Strategic Advisory
+        </span>
+<span class="hidden md:inline-block w-12 h-px bg-outline-variant/60"></span>
+<span class="hidden md:inline text-secondary font-label-sm text-label-sm uppercase tracking-widest">Est. MMXVI</span>
+</div>
+<!-- Hero Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<div class="lg:col-span-8 space-y-space-lg">
+<h1 class="font-display text-headline-lg md:text-display text-primary tracking-tight leading-[1.08] max-w-4xl">
+            Financial precision crafted for visionaries, family offices, and ambitious enterprises.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            We combine rigorous institutional CPA craftsmanship with forward-looking fractional CFO guidance to safeguard generational assets and engineer strategic capital velocity.
+          </p>
+<!-- Dual CTA Buttons -->
+<div class="pt-space-sm flex flex-wrap items-center gap-space-md">
+<a class="inline-flex items-center justify-center gap-space-sm bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-widest px-8 py-4 rounded hover:bg-primary-container transition-all shadow-md group" data-path="schedule-consultation" href="#">
+<span>Schedule Private Consultation</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center bg-transparent text-secondary hover:text-primary font-label-lg text-label-lg uppercase tracking-widest px-7 py-4 rounded hover:bg-secondary-container/10 transition-all border border-secondary/40 hover:border-secondary" data-path="fee-architecture" href="#">
+              Explore Advisory Tiers
+            </a>
+</div>
+</div>
+<!-- Right Side Visual / Seal Card -->
+<div class="lg:col-span-4 mt-8 lg:mt-0">
+<div class="bg-surface-container-lowest p-space-xl rounded shadow-sm relative overflow-hidden">
+<div class="flex items-center justify-between pb-space-md border-b border-outline-variant/30">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Fiduciary Briefing</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Q2 Active
+              </span>
+</div>
+<div class="pt-space-md space-y-space-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary font-headline-sm">
+                  §
+                </div>
+<div>
+<h4 class="font-headline-sm text-[16px] text-primary leading-tight">IRC Sec. 1202 &amp; 1045</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">QSBS rollover liquidity blueprint</p>
+</div>
+</div>
+<div class="h-28 rounded overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Architectural photograph of a stately private banking boardroom in Manhattan with warm sunlight cast upon bespoke oak conference tables, leatherbound ledgers, and bronze desk accessories, rendered in deep forest green and ivory tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjKYDjVUbHJMX-b-hKHCWk8-1X7NDSAuDSUMbjFPSDL5pBYhduWm1foMXLiWOmDlcPA-PHBYWr2z7aZ2xcE1gKOoL2rcvqpGJHz5Q9d3xCPQSTudcT2nAeS9S9KyN-40ZTaCjAZ-ckmm5JOii6ajDUAxUXAPKcFct8t_uVV1eIPTh1nmXOzm_vFqm7_tzhO4s7Bw2yd-J048C6AheylC5HaZ6GayJd-sQiFiRFBVn3krMjwcprOIvj"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+<div class="absolute bottom-2 left-3 right-3 flex items-center justify-between text-on-primary font-label-sm text-label-sm">
+<span>Advisory Desk NY</span>
+<span class="text-secondary-fixed">Confidential</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic leading-relaxed">
+                “Where statutory code meets bespoke private market capital governance.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Trust Metrics Ribbon -->
+<div class="mt-space-2xl pt-space-xl border-t border-outline-variant/30">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter-desktop">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Advised AUM</span>
+<div class="font-headline-lg text-headline-lg text-primary tracking-tight">$4.2B+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Aggregated private balance sheets</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Statutory Integrity</span>
+<div class="font-headline-lg text-headline-lg text-primary tracking-tight">99.4%</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">IRS &amp; regulatory defensibility index</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Median Yield</span>
+<div class="font-headline-lg text-headline-lg text-primary tracking-tight">42%</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Avg. first-year tax alpha captured</p>
+</div>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Private Mandates</span>
+<div class="font-headline-lg text-headline-lg text-primary tracking-tight">140+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selected founders &amp; dynasties</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Practices & Advisory Architectural Matrix -->
+<section class="w-full py-space-2xl bg-surface-container-low/70">
+<div class="max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary block mb-space-xs">Core Competencies</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Institutional Practice Areas</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Structured precisely to bridge the divide between strategic treasury velocity and non-negotiable compliance rigor.
+        </p>
+</div>
+<!-- Practice Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Practice Card 1 (Dark Accent Card) -->
+<div class="bg-primary text-on-primary p-space-xl rounded shadow-md flex flex-col justify-between group hover:bg-primary-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary-fixed">
+<span class="font-label-sm text-label-sm tracking-widest uppercase">Mandate 01</span>
+<span class="material-symbols-outlined text-2xl">trending_up</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-primary mb-space-xs leading-snug">Strategic Fractional CFO</h3>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+                Executive capital stewardship for high-growth tech enterprises, life science ventures, and multi-entity operations.
+              </p>
+</div>
+<div class="pt-space-sm space-y-2">
+<div class="flex items-center gap-2 text-body-sm text-surface-container-high">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+<span>Multi-entity balance sheet consolidation</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-surface-container-high">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+<span>Dynamic burn &amp; runway cohort modeling</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-surface-container-high">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+<span>M&amp;A sell-side dataroom diligence</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl border-t border-primary-container/80 flex items-center justify-between mt-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Tier A / Growth Focus</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform text-secondary-fixed">north_east</span>
+</div>
+</div>
+<!-- Practice Card 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm tracking-widest uppercase">Mandate 02</span>
+<span class="material-symbols-outlined text-2xl">account_balance</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs leading-snug">Private Wealth &amp; Estate Tax</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Protecting intergenerational family office balance sheets from statutory erosion and friction points.
+              </p>
+</div>
+<div class="pt-space-sm space-y-2">
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>QSBS Section 1202 multi-stacking</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Dynasty &amp; Grantor retained annuity trusts</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Cross-border dual residency optimization</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl border-t border-outline-variant/30 flex items-center justify-between mt-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Family Office &amp; Trusts</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform text-primary">north_east</span>
+</div>
+</div>
+<!-- Practice Card 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm tracking-widest uppercase">Mandate 03</span>
+<span class="material-symbols-outlined text-2xl">analytics</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs leading-snug">Corporate Tax &amp; R&amp;D Credits</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Substantive quantitative analysis uncovering statutory arbitrage, enterprise credits, and nexus shields.
+              </p>
+</div>
+<div class="pt-space-sm space-y-2">
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Sec. 41 Federal R&amp;D defensibility studies</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Multistate apportionment &amp; nexus relief</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Transfer pricing &amp; IP holding structures</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl border-t border-outline-variant/30 flex items-center justify-between mt-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Enterprise &amp; Scale</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform text-primary">north_east</span>
+</div>
+</div>
+<!-- Practice Card 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm tracking-widest uppercase">Mandate 04</span>
+<span class="material-symbols-outlined text-2xl">gavel</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs leading-snug">Audit Assurance &amp; Representation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Impenetrable preparation and aggressive defense before state agencies, the IRS, and PCAOB bodies.
+              </p>
+</div>
+<div class="pt-space-sm space-y-2">
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>IRS Appeals &amp; technical advice memorandums</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>GAAP/PCAOB audit-readiness reviews</span>
+</div>
+<div class="flex items-center gap-2 text-body-sm text-on-surface">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Complex forensic reconciliation audits</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl border-t border-outline-variant/30 flex items-center justify-between mt-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Fiduciary Defense</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform text-primary">north_east</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Tax Alpha Matrix & Forensic Simulator -->
+<section class="w-full py-space-2xl">
+<div class="max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="bg-surface-container p-space-xl md:p-space-2xl rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary">Capital Architecture Tool</span>
+<h3 class="font-headline-lg text-headline-lg text-primary tracking-tight">Interactive Liquidity Alpha Model</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Adjust transaction parameters to preview modeled statutory savings across corporate tax restructuring, QSBS Section 1202 exclusions, and multi-state apportionment shields.
+            </p>
+<div class="pt-space-sm space-y-space-md font-body-sm text-body-sm text-on-surface">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">shield</span>
+<span>Zero-exposure compliance validation prior to filing</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">tune</span>
+<span>Calibrated dynamically for New York, California &amp; Federal codes</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg md:p-space-xl rounded shadow-sm">
+<div class="space-y-space-lg">
+<!-- Slider 1 -->
+<div>
+<div class="flex justify-between items-center mb-2">
+<label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Annual Gross Entity Revenue</label>
+<span class="font-headline-sm text-[18px] text-primary tabular-nums" id="revenue-val">$12,000,000</span>
+</div>
+<input class="w-full accent-primary h-1.5 bg-surface-container-high rounded cursor-pointer" id="revenue-slider" max="60000000" min="2000000" step="1000000" type="range" value="12000000"/>
+<div class="flex justify-between text-[11px] font-label-sm text-outline mt-1">
+<span>$2M</span>
+<span>$30M</span>
+<span>$60M+</span>
+</div>
+</div>
+<!-- Slider 2 -->
+<div>
+<div class="flex justify-between items-center mb-2">
+<label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Target Exit / Liquidity Event Projection</label>
+<span class="font-headline-sm text-[18px] text-primary tabular-nums" id="exit-val">$25,000,000</span>
+</div>
+<input class="w-full accent-secondary h-1.5 bg-surface-container-high rounded cursor-pointer" id="exit-slider" max="100000000" min="5000000" step="2500000" type="range" value="25000000"/>
+<div class="flex justify-between text-[11px] font-label-sm text-outline mt-1">
+<span>$5M</span>
+<span>$50M</span>
+<span>$100M</span>
+</div>
+</div>
+<!-- Result Highlights -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-md border-t border-outline-variant/30">
+<div class="bg-surface-container p-space-md rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block">QSBS 1202 Shield</span>
+<div class="font-headline-md text-headline-md text-primary mt-1 tabular-nums" id="shield-val">$10,000,000</div>
+<span class="text-[11px] font-body-sm text-on-surface-variant">100% Fed Cap Gains Exclusion</span>
+</div>
+<div class="bg-surface-container p-space-md rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block">Annual R&amp;D Credit</span>
+<div class="font-headline-md text-headline-md text-primary mt-1 tabular-nums" id="rnd-val">$380,000</div>
+<span class="text-[11px] font-body-sm text-on-surface-variant">Direct Payroll Offset</span>
+</div>
+<div class="bg-primary text-on-primary p-space-md rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed block">Est. Retained Alpha</span>
+<div class="font-headline-md text-headline-md text-secondary-fixed mt-1 tabular-nums" id="alpha-val">$3,840,000</div>
+<span class="text-[11px] font-body-sm text-on-primary-container">Total Strategic Spread</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant pt-2">
+<span class="text-[12px] italic">Based on standard Section 1202/1045 statutes and typical tech gross margins.</span>
+<a class="font-label-md text-label-md text-primary uppercase tracking-wider hover:text-secondary flex items-center gap-1" data-path="schedule-consultation" href="#">
+                  Run Full Diagnostic <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Testimonial & Heritage Validation -->
+<section class="w-full py-space-2xl bg-surface-container-lowest">
+<div class="max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded overflow-hidden shadow-sm relative">
+<img class="w-full h-full object-cover" data-alt="Portrait of an elegant modern private office interior in a historic brick and limestone building in Tribeca New York, with warm lighting, framed vintage architectural sketches, fine leather furniture, and minimalist gold appointments" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzGr61HF-XQOmxmzMSjQCQpdiry6JU_GAf7ym03QkB-BJt5eYFHT9-Xo8Yk4E99CRj6p_wWk26_rrSD0Q00OIYTOmaLSgeRsDVUiTGQ7fpkFnBlrj81HWrE_2xzXG3SqyqSKiVGW4WF-P_LAmSqMnyZnjARRWJhVPpr6yOQWrRD8EQTGDDi2qmjjnpEjTCinxKoT-D1YIURf5dQdUzfwYKgjKEZow84f602sJGhHts6rGDCuRzwuZD"/>
+<div class="absolute inset-0 bg-primary/10"></div>
+<div class="absolute bottom-6 left-6 right-6 p-space-md bg-surface-container-lowest/90 backdrop-blur-md rounded">
+<p class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Tribeca Advisory Chambers</p>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Direct partner access on every client engagement.</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 space-y-space-lg lg:pl-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary">Principal Dispatch</span>
+<blockquote class="font-headline-md text-headline-md md:text-headline-lg text-primary italic leading-snug">
+            “Aura &amp; Stone restructured our multi-entity capital stack prior to our $140M secondary round. Their foresight on QSBS qualification alone preserved more than $14M in founder equity.”
+          </blockquote>
+<div class="pt-space-xs">
+<p class="font-headline-sm text-headline-sm text-primary">Julian Vance-Moreau</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Managing Partner, Vance-Moreau Capital &amp; Family Trust</p>
+<div class="flex items-center gap-2 mt-2">
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded bg-surface-container text-secondary uppercase tracking-wider">Series B Founder</span>
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded bg-surface-container text-on-surface-variant">Client Since 2019</span>
+</div>
+</div>
+<!-- Peer Client Trust Marks -->
+<div class="pt-space-lg border-t border-outline-variant/30">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant/80 block mb-space-md">Trusted By Leaders Across</span>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md items-center">
+<div class="p-3 rounded bg-surface-container text-center">
+<span class="font-headline-sm text-[16px] text-primary tracking-wider">APEX BIO</span>
+<span class="block text-[10px] uppercase font-label-sm text-secondary">Biotech Unicorn</span>
+</div>
+<div class="p-3 rounded bg-surface-container text-center">
+<span class="font-headline-sm text-[16px] text-primary tracking-wider">VALENCE</span>
+<span class="block text-[10px] uppercase font-label-sm text-secondary">Robotics / AI</span>
+</div>
+<div class="p-3 rounded bg-surface-container text-center">
+<span class="font-headline-sm text-[16px] text-primary tracking-wider">CRESTVIEW</span>
+<span class="block text-[10px] uppercase font-label-sm text-secondary">Family Office</span>
+</div>
+<div class="p-3 rounded bg-surface-container text-center">
+<span class="font-headline-sm text-[16px] text-primary tracking-wider">KINETIC</span>
+<span class="block text-[10px] uppercase font-label-sm text-secondary">Fintech Platform</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Jurisdictional Presence & Final Consultation Invitation -->
+<section class="w-full py-space-2xl bg-surface-container-high/60">
+<div class="max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="bg-primary text-on-primary rounded p-space-xl md:p-space-2xl shadow-xl relative overflow-hidden">
+<!-- Subtle Vector Geometry Overlay -->
+<div class="absolute right-0 bottom-0 opacity-10 pointer-events-none translate-x-12 translate-y-12">
+<svg class="text-secondary-fixed" fill="none" height="400" viewbox="0 0 400 400" width="400">
+<circle cx="200" cy="200" r="180" stroke="currentColor" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="120" stroke="currentColor" stroke-width="2"></circle>
+<line stroke="currentColor" stroke-width="2" x1="20" x2="380" y1="200" y2="200"></line>
+<line stroke="currentColor" stroke-width="2" x1="200" x2="200" y1="20" y2="380"></line>
+</svg>
+</div>
+<div class="max-w-3xl space-y-space-md relative z-10">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary-fixed">Confidential Dialogue</span>
+<h2 class="font-headline-lg text-headline-lg md:text-display text-on-primary tracking-tight leading-tight">
+            Initiate your engagement with Aura &amp; Stone.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed">
+            We limit partner-level advisory intake to maintain unparalleled fidelity and responsiveness. Inquire now to confirm private availability for the coming quarter.
+          </p>
+<div class="pt-space-md flex flex-wrap gap-space-md">
+<a class="inline-flex items-center gap-space-sm bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg uppercase tracking-widest px-8 py-4 rounded hover:bg-secondary-fixed-dim transition-all shadow-md" data-path="schedule-consultation" href="#">
+<span>Request Partner Consultation</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+<a class="inline-flex items-center gap-space-sm bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-widest px-7 py-4 rounded hover:bg-on-primary-fixed-variant transition-all" data-path="client-portal" href="#">
+<span>Access Secure Vault</span>
+<span class="material-symbols-outlined text-[18px]">lock</span>
+</a>
+</div>
+<!-- Jurisdictions -->
+<div class="pt-space-xl border-t border-primary-container/80 grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<div>
+<p class="font-label-md text-label-md text-secondary-fixed uppercase tracking-wider">Tribeca, New York</p>
+<p class="font-body-sm text-body-sm text-on-primary-container">Franklin Street Chambers</p>
+<span class="font-label-sm text-label-sm text-surface-tint">Direct +1 (212) 840-2210</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-secondary-fixed uppercase tracking-wider">Presidio, San Francisco</p>
+<p class="font-body-sm text-body-sm text-on-primary-container">Montgomery Street Tower</p>
+<span class="font-label-sm text-label-sm text-surface-tint">Direct +1 (415) 902-8840</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-secondary-fixed uppercase tracking-wider">Bahnhofstrasse, Zurich</p>
+<p class="font-body-sm text-body-sm text-on-primary-container">Swiss Banking Quarters</p>
+<span class="font-label-sm text-label-sm text-surface-tint">Direct +41 44 210 9900</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Matrix Logic Script -->
+<script>
+    (function initMatrixCalculator() {
+      const revSlider = document.getElementById('revenue-slider');
+      const exitSlider = document.getElementById('exit-slider');
+      
+      const revVal = document.getElementById('revenue-val');
+      const exitVal = document.getElementById('exit-val');
+      const shieldVal = document.getElementById('shield-val');
+      const rndVal = document.getElementById('rnd-val');
+      const alphaVal = document.getElementById('alpha-val');
+
+      function formatCurrency(val) {
+        return '$' + Number(val).toLocaleString();
+      }
+
+      function updateCalculation() {
+        if (!revSlider || !exitSlider) return;
+        const rev = parseFloat(revSlider.value);
+        const exit = parseFloat(exitSlider.value);
+
+        revVal.textContent = formatCurrency(rev);
+        exitVal.textContent = formatCurrency(exit);
+
+        // Section 1202 typical maximum exclusion capped at $10M or 10x basis
+        const calculatedShield = Math.min(exit, 10000000);
+        shieldVal.textContent = formatCurrency(calculatedShield);
+
+        // Estimated R&D tax credit based on typical tech enterprise qualifying payroll & expenses
+        const estimatedRnd = Math.round(rev * 0.032);
+        rndVal.textContent = formatCurrency(estimatedRnd);
+
+        // Strategic combined alpha estimate
+        const totalAlpha = Math.round((calculatedShield * 0.238) + estimatedRnd + (rev * 0.045));
+        alphaVal.textContent = formatCurrency(totalAlpha);
+      }
+
+      if (revSlider && exitSlider) {
+        revSlider.addEventListener('input', updateCalculation);
+        exitSlider.addEventListener('input', updateCalculation);
+        updateCalculation();
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low border-t border-outline-variant/40 mt-space-2xl"><div class="max-w-[1380px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-desktop pb-space-2xl border-b border-outline-variant/30"><div class="lg:col-span-4 space-y-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-primary">Aura &amp; Stone</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Bespoke fractional CFO advisory, institutional tax jurisprudence, and multi-generational family office capital structuring.</p><div class="pt-space-sm"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-space-sm">Jurisdictional Coordinates</span><div class="grid grid-cols-3 gap-space-sm text-on-surface"><div class="border-l border-secondary/30 pl-2"><p class="font-label-md text-label-md font-semibold">New York</p><p class="font-body-sm text-body-sm text-on-surface-variant">Madison Ave</p></div><div class="border-l border-secondary/30 pl-2"><p class="font-label-md text-label-md font-semibold">San Francisco</p><p class="font-body-sm text-body-sm text-on-surface-variant">Montgomery St</p></div><div class="border-l border-secondary/30 pl-2"><p class="font-label-md text-label-md font-semibold">Zurich</p><p class="font-body-sm text-body-sm text-on-surface-variant">Bahnhofstrasse</p></div></div></div></div><div class="lg:col-span-2 space-y-space-sm"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Advisory Scope</span><ul class="space-y-space-sm font-body-sm text-body-sm"><li class="text-on-surface-variant hover:text-primary transition-colors">Fractional CFO Mandates</li><li class="text-on-surface-variant hover:text-primary transition-colors">Wealth &amp; Estate Structuring</li><li class="text-on-surface-variant hover:text-primary transition-colors">PCAOB &amp; Audit Readiness</li><li class="text-on-surface-variant hover:text-primary transition-colors">M&amp;A Capital Due Diligence</li><li class="text-on-surface-variant hover:text-primary transition-colors">Global Tax Treaty Advisory</li></ul></div><div class="lg:col-span-2 space-y-space-sm"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Governance &amp; Trust</span><ul class="space-y-space-sm font-body-sm text-body-sm"><li class="text-on-surface-variant hover:text-primary transition-colors">Fee Architecture Charter</li><li class="text-on-surface-variant hover:text-primary transition-colors">Fiduciary Transparency</li><li class="text-on-surface-variant hover:text-primary transition-colors">Private Vault Security</li><li class="text-on-surface-variant hover:text-primary transition-colors">Regulatory Filings</li><li class="text-on-surface-variant hover:text-primary transition-colors">Code of Professional Conduct</li></ul></div><div class="lg:col-span-4 space-y-space-md"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">The Aura &amp; Stone Monograph</span><p class="font-body-sm text-body-sm text-on-surface-variant">A restricted quarterly circular evaluating federal tax code jurisprudence, private liquidity events, and macroeconomic treasury governance.</p><form class="flex flex-col sm:flex-row gap-space-xs pt-1"><input class="bg-surface-container-lowest border border-outline-variant/60 rounded px-space-md py-2.5 font-body-sm text-body-sm text-on-surface focus:outline-none focus:border-primary flex-1" placeholder="executive@domain.com" type="email"/><button class="bg-primary text-on-primary px-space-md py-2.5 rounded font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container transition-colors" type="button">Subscribe</button></form><div class="flex items-center gap-space-sm text-on-surface-variant/80"><span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span><span class="font-label-sm text-label-sm">Discretion guaranteed. No distribution to third parties.</span></div></div></div><div class="py-space-lg flex flex-wrap items-center justify-between gap-space-md border-b border-outline-variant/20"><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mr-2">Accreditations:</span><span class="font-label-sm text-label-sm border border-outline-variant/40 px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">AICPA Member</span><span class="font-label-sm text-label-sm border border-outline-variant/40 px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">IRS Enrolled Agents</span><span class="font-label-sm text-label-sm border border-outline-variant/40 px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">SOC2 Type II Certified</span><span class="font-label-sm text-label-sm border border-outline-variant/40 px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">PCAOB Registered</span></div><div class="font-label-sm text-label-sm text-on-surface-variant">© 2025 Aura &amp; Stone CPA &amp; Advisory LLP. All rights reserved.</div></div><div class="pt-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm text-on-surface-variant/70 leading-relaxed text-[11px]">Disclaimer: Aura &amp; Stone CPA &amp; Advisory LLP is a licensed Certified Public Accounting firm. Materials published on this domain are formulated strictly for informational governance and executive orientation, and do not constitute specific statutory tax opinions, legal counsel, or investment fiduciary solicitation without an executed engagement agreement.</p></div></div></footer></body></html>

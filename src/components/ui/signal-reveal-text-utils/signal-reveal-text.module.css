@@ -1,0 +1,15 @@
+.root {
+  display: inline-block;
+  position: relative;
+  color: var(--signal-accent, currentColor);
+}
+
+.copy {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.word {
+  display: inline-block;
+  will-change: transform, opacity;
+}
