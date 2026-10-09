@@ -39,7 +39,6 @@ function SignalRevealText({
     ...style,
     "--signal-accent": accent,
   } as SignalRevealStyle;
-  const loopDuration = (duration * 3.1) / 1000;
 
   return (
     <Component
