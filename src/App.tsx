@@ -108,17 +108,17 @@ export default function App() {
               </p>
 
               {/* Dual CTA Buttons */}
-              <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
+              <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full sm:w-auto max-w-md sm:max-w-none mx-auto">
                 <button 
                   onClick={() => setConsultationModalOpen(true)}
-                  className="inline-flex items-center gap-3 bg-[#07241a] text-white text-xs font-semibold uppercase tracking-widest px-8 py-4 rounded hover:bg-[#1e3a2f] transition-all shadow-md group"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 sm:gap-3 bg-[#07241a] text-white text-[11px] sm:text-xs font-semibold uppercase tracking-wider sm:tracking-widest px-5 sm:px-8 py-3.5 sm:py-4 rounded hover:bg-[#1e3a2f] transition-all shadow-md group whitespace-nowrap"
                 >
                   <span>Schedule Private Consultation</span>
                   <span className="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                 </button>
                 <a 
                   href="#calculator" 
-                  className="inline-flex items-center justify-center bg-transparent text-[#775a19] hover:text-[#07241a] text-xs font-semibold uppercase tracking-widest px-7 py-4 rounded hover:bg-[#fed488]/10 transition-all border border-[#775a19]/40 hover:border-[#775a19]"
+                  className="w-full sm:w-auto inline-flex items-center justify-center bg-transparent text-[#775a19] hover:text-[#07241a] text-[11px] sm:text-xs font-semibold uppercase tracking-wider sm:tracking-widest px-5 sm:px-7 py-3.5 sm:py-4 rounded hover:bg-[#fed488]/10 transition-all border border-[#775a19]/40 hover:border-[#775a19] whitespace-nowrap"
                 >
                   Explore Advisory Tiers
                 </a>
@@ -474,17 +474,17 @@ export default function App() {
                   We limit partner-level advisory intake to maintain unparalleled fidelity and responsiveness. Inquire now to confirm private availability for the coming quarter.
                 </p>
 
-                <div className="pt-4 flex flex-wrap gap-4">
+                <div className="pt-4 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
                   <button 
                     onClick={() => setConsultationModalOpen(true)}
-                    className="inline-flex items-center gap-3 bg-[#fed488] text-[#261900] text-xs font-semibold uppercase tracking-widest px-8 py-4 rounded hover:bg-[#e9c176] transition-all shadow-md"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 sm:gap-3 bg-[#fed488] text-[#261900] text-[11px] sm:text-xs font-semibold uppercase tracking-wider sm:tracking-widest px-5 sm:px-8 py-3.5 sm:py-4 rounded hover:bg-[#e9c176] transition-all shadow-md whitespace-nowrap"
                   >
                     <span>Request Partner Consultation</span>
                     <span className="material-symbols-outlined text-[18px]">calendar_today</span>
                   </button>
                   <a 
                     href="#calculator" 
-                    className="inline-flex items-center gap-3 bg-[#1e3a2f] text-white text-xs font-semibold uppercase tracking-widest px-7 py-4 rounded hover:bg-[#304c41] transition-all border border-[#86a496]/30"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 sm:gap-3 bg-[#1e3a2f] text-white text-[11px] sm:text-xs font-semibold uppercase tracking-wider sm:tracking-widest px-5 sm:px-7 py-3.5 sm:py-4 rounded hover:bg-[#304c41] transition-all border border-[#86a496]/30 whitespace-nowrap"
                   >
                     <span>Explore Advisory Tiers</span>
                     <span className="material-symbols-outlined text-[18px]">lock</span>
