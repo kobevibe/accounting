@@ -25,7 +25,7 @@ export default function App() {
   const [monthlyDocs, setMonthlyDocs] = useState(180);
   
   // Form submission state
-  const [formData, setFormData] = useState({ name: "", phone: "", email: "", service: "" });
+  const [formData, setFormData] = useState({ name: "", phone: "" });
   const [submitted, setSubmitted] = useState(false);
   const [success, setSuccess] = useState(false);
 
@@ -39,10 +39,8 @@ export default function App() {
   const openServiceModal = (serviceTitle?: string) => {
     if (serviceTitle) {
       setSelectedService(serviceTitle);
-      setFormData((prev) => ({ ...prev, service: serviceTitle }));
     } else {
       setSelectedService(t.services[0].title);
-      setFormData((prev) => ({ ...prev, service: t.services[0].title }));
     }
     handleCloseModal(true);
   };
@@ -53,6 +51,7 @@ export default function App() {
     setTimeout(() => {
       setSubmitted(false);
       setSuccess(true);
+      setFormData({ name: "", phone: "" });
     }, 800);
   };
 
@@ -60,7 +59,7 @@ export default function App() {
     setConsultationModalOpen(isOpen);
     if (!isOpen) {
       setSuccess(false);
-      setFormData({ name: "", phone: "", email: "", service: "" });
+      setFormData({ name: "", phone: "" });
     }
   };
 
@@ -665,9 +664,13 @@ export default function App() {
               <p className="text-xs text-[#424844] leading-relaxed">
                 {t.tagline}
               </p>
+              <div className="space-y-1.5 text-xs text-[#1b1c18] font-medium pt-1">
+                <p>Phone: <a href="tel:+998977181945" className="text-[#07241a] font-bold hover:underline">+998 97 718 19 45</a></p>
+                <p>Telegram: <a href="https://t.me/Ozod_82" target="_blank" rel="noopener noreferrer" className="text-[#07241a] font-bold hover:underline">@Ozod_82</a></p>
+              </div>
               <button
                 onClick={() => openServiceModal()}
-                className="text-xs font-semibold uppercase tracking-wider text-[#07241a] underline hover:text-[#775a19] transition-colors block"
+                className="text-xs font-semibold uppercase tracking-wider text-[#07241a] underline hover:text-[#775a19] transition-colors block pt-1"
               >
                 {t.nav.consultation} →
               </button>
@@ -758,36 +761,6 @@ export default function App() {
                       className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
                       placeholder="+998 90 123 45 67"
                     />
-                  </div>
-
-                  <div>
-                    <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
-                      {t.modal.fieldEmail}
-                    </label>
-                    <input
-                      type="email"
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
-                      placeholder="contact@company.uz"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
-                      {t.modal.fieldService}
-                    </label>
-                    <select
-                      value={formData.service || selectedService || t.services[0].title}
-                      onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                      className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
-                    >
-                      {t.services.map((s) => (
-                        <option key={s.id} value={s.title}>
-                          № {s.number} — {s.title}
-                        </option>
-                      ))}
-                    </select>
                   </div>
 
                   <button
