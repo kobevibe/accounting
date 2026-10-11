@@ -3,15 +3,23 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light;
+  color-scheme: only light !important;
+  supported-color-schemes: light !important;
 }
 
 @layer base {
+  html {
+    color-scheme: only light !important;
+    background-color: #fbf9f3 !important;
+  }
+
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: #fbf9f3;
-    color: #1b1c18;
-    color-scheme: light;
+    background-color: #fbf9f3 !important;
+    color: #1b1c18 !important;
+    color-scheme: only light !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   h1, h2, h3, h4, .font-display {
@@ -21,4 +29,9 @@
 
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Ensure mobile inputs and select dropdowns maintain crisp light styling */
+input, select, textarea {
+  color-scheme: only light !important;
 }
