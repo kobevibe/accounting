@@ -63,18 +63,12 @@ export default function App() {
       <header className="sticky top-0 z-50 bg-[#fbf9f3]/95 backdrop-blur-md border-b border-[#c1c8c3]/40 transition-colors">
         <div className="max-w-[1380px] mx-auto px-4 sm:px-6 md:px-10 lg:px-12 h-20 sm:h-24 flex items-center justify-between">
           {/* Logo / Brand */}
-          <a href="#" className="flex items-center gap-3 sm:gap-4 group">
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded bg-[#07241a] flex items-center justify-center text-[#fed488] font-serif font-bold text-lg sm:text-xl shadow-sm shrink-0 group-hover:bg-[#1e3a2f] transition-colors">
-              PA
-            </div>
-            <div>
-              <span className="font-serif text-lg sm:text-2xl font-bold tracking-tight text-[#07241a] block leading-tight">
-                {t.companyName}
-              </span>
-              <span className="text-[9px] sm:text-[10px] uppercase font-semibold tracking-[0.16em] sm:tracking-[0.22em] text-[#775a19] block">
-                {t.tagline}
-              </span>
-            </div>
+          <a href="#" className="flex items-center gap-3 group">
+            <img 
+              src="/logo.png" 
+              alt={t.companyFullName} 
+              className="h-11 sm:h-13 md:h-14 w-auto object-contain transition-transform group-hover:scale-[1.02]" 
+            />
           </a>
 
           {/* Desktop Nav */}
@@ -129,8 +123,8 @@ export default function App() {
               </button>
             </div>
 
-            {/* Desktop CTA Button */}
-            <div className="hidden md:flex items-center">
+            {/* Desktop CTA Button - hidden below lg to prevent collision with hamburger menu */}
+            <div className="hidden lg:flex items-center">
               <button
                 onClick={() => openServiceModal()}
                 className="inline-flex items-center gap-2 bg-[#07241a] text-white text-xs font-semibold uppercase tracking-wider px-5 py-3 rounded hover:bg-[#1e3a2f] transition-all shadow-md shrink-0"
@@ -211,10 +205,9 @@ export default function App() {
           <div className="absolute top-1/2 left-[-15%] w-[520px] h-[520px] rounded-full bg-[#aecebe]/25 blur-3xl pointer-events-none -z-10"></div>
 
           <div className="max-w-[1240px] mx-auto px-4 sm:px-6 md:px-10 text-center">
-            {/* Overline Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#eae8e2] border border-[#c1c8c3]/40 text-[#07241a] text-xs font-semibold uppercase tracking-widest mb-6 sm:mb-8 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-[#775a19]"></span>
-              <span>{t.hero.badge}</span>
+            {/* Overline Text - clean text without dot or capsule */}
+            <div className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-[#775a19] mb-4 sm:mb-6">
+              {t.hero.badge}
             </div>
 
             {/* Main Title */}
@@ -626,12 +619,11 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-12 border-b border-[#c1c8c3]/40">
             <div className="lg:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded bg-[#07241a] flex items-center justify-center text-[#fed488] font-serif font-bold text-sm">
-                  PA
-                </div>
-                <span className="font-serif text-lg sm:text-xl font-bold text-[#07241a]">
-                  {t.companyName}
-                </span>
+                <img 
+                  src="/logo.png" 
+                  alt={t.companyFullName} 
+                  className="h-12 w-auto object-contain" 
+                />
               </div>
               <p className="text-xs text-[#424844] max-w-sm leading-relaxed">
                 {t.footer.description}
