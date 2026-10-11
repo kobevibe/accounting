@@ -27,6 +27,7 @@ export default function App() {
   // Form submission state
   const [formData, setFormData] = useState({ name: "", phone: "", email: "", service: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   // Estimator Calculations
   // In-house average costs in USD equivalent
@@ -43,18 +44,24 @@ export default function App() {
       setSelectedService(t.services[0].title);
       setFormData((prev) => ({ ...prev, service: t.services[0].title }));
     }
-    setConsultationModalOpen(true);
+    handleCloseModal(true);
   };
 
   const handleConsultationSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitted(true);
     setTimeout(() => {
-      setConsultationModalOpen(false);
       setSubmitted(false);
+      setSuccess(true);
+    }, 800);
+  };
+
+  const handleCloseModal = (isOpen: boolean) => {
+    setConsultationModalOpen(isOpen);
+    if (!isOpen) {
+      setSuccess(false);
       setFormData({ name: "", phone: "", email: "", service: "" });
-      alert(t.modal.successMessage);
-    }, 1000);
+    }
   };
 
   return (
@@ -686,91 +693,113 @@ export default function App() {
         <div className="fixed inset-0 z-50 bg-[#07241a]/60 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="bg-[#fbf9f3] rounded-lg max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-[#c1c8c3]/40 relative animate-in fade-in zoom-in-95 duration-200">
             <button
-              onClick={() => setConsultationModalOpen(false)}
+              onClick={() => handleCloseModal(false)}
               className="absolute top-5 right-5 p-2 text-[#727974] hover:text-[#07241a] rounded-full hover:bg-[#eae8e2] transition-colors"
             >
               <span className="material-symbols-outlined text-xl">close</span>
             </button>
 
-            <div className="mb-6">
-              <span className="text-xs font-semibold uppercase tracking-widest text-[#775a19] block mb-1">
-                {t.modal.badge}
-              </span>
-              <h3 className="font-serif text-2xl font-bold text-[#07241a] mb-2">
-                {t.modal.title}
-              </h3>
-              <p className="text-xs text-[#424844]">
-                {t.modal.subtitle}
-              </p>
-            </div>
-
-            <form onSubmit={handleConsultationSubmit} className="space-y-4">
-              <div>
-                <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
-                  {t.modal.fieldName}
-                </label>
-                <input
-                  type="text"
-                  required
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
-                  placeholder="Иван Иванов / Компания"
-                />
-              </div>
-
-              <div>
-                <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
-                  {t.modal.fieldPhone}
-                </label>
-                <input
-                  type="tel"
-                  required
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
-                  placeholder="+998 90 123 45 67"
-                />
-              </div>
-
-              <div>
-                <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
-                  {t.modal.fieldEmail}
-                </label>
-                <input
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
-                  placeholder="contact@company.uz"
-                />
-              </div>
-
-              <div>
-                <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
-                  {t.modal.fieldService}
-                </label>
-                <select
-                  value={formData.service || selectedService || t.services[0].title}
-                  onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                  className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
+            {success ? (
+              <div className="py-8 text-center space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#07241a] text-[#fed488] flex items-center justify-center mx-auto shadow-md">
+                  <span className="material-symbols-outlined text-3xl">done</span>
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-serif text-2xl font-bold text-[#07241a]">Murojaatingiz qabul qilindi!</h3>
+                  <p className="text-xs text-[#424844] leading-relaxed max-w-sm mx-auto">
+                    PACIFIC ACCOUNTING mutaxassisi 2 soat ichida siz bilan bog'lanadi.
+                  </p>
+                </div>
+                <button
+                  onClick={() => handleCloseModal(false)}
+                  className="w-full py-4 rounded bg-[#07241a] text-white text-xs font-semibold uppercase tracking-widest hover:bg-[#1e3a2f] transition-all shadow"
                 >
-                  {t.services.map((s) => (
-                    <option key={s.id} value={s.title}>
-                      № {s.number} — {s.title}
-                    </option>
-                  ))}
-                </select>
+                  Yopish
+                </button>
               </div>
+            ) : (
+              <>
+                <div className="mb-6">
+                  <span className="text-xs font-semibold uppercase tracking-widest text-[#775a19] block mb-1">
+                    {t.modal.badge}
+                  </span>
+                  <h3 className="font-serif text-2xl font-bold text-[#07241a] mb-2">
+                    {t.modal.title}
+                  </h3>
+                  <p className="text-xs text-[#424844]">
+                    {t.modal.subtitle}
+                  </p>
+                </div>
 
-              <button
-                type="submit"
-                disabled={submitted}
-                className="w-full py-4 mt-2 rounded bg-[#07241a] hover:bg-[#1e3a2f] text-white text-xs font-semibold uppercase tracking-widest shadow transition-all disabled:opacity-50"
-              >
-                {submitted ? t.modal.submitting : t.modal.submitButton}
-              </button>
-            </form>
+                <form onSubmit={handleConsultationSubmit} className="space-y-4">
+                  <div>
+                    <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
+                      {t.modal.fieldName}
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
+                      placeholder="Иван Иванов / Компания"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
+                      {t.modal.fieldPhone}
+                    </label>
+                    <input
+                      type="tel"
+                      required
+                      value={formData.phone}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                      className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
+                      placeholder="+998 90 123 45 67"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
+                      {t.modal.fieldEmail}
+                    </label>
+                    <input
+                      type="email"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
+                      placeholder="contact@company.uz"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-semibold text-[#424844] uppercase tracking-wider mb-1.5">
+                      {t.modal.fieldService}
+                    </label>
+                    <select
+                      value={formData.service || selectedService || t.services[0].title}
+                      onChange={(e) => setFormData({ ...formData, service: e.target.value })}
+                      className="w-full px-4 py-3 rounded bg-white border border-[#c1c8c3]/60 focus:ring-1 focus:ring-[#07241a] focus:border-[#07241a] text-xs outline-none transition-all"
+                    >
+                      {t.services.map((s) => (
+                        <option key={s.id} value={s.title}>
+                          № {s.number} — {s.title}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={submitted}
+                    className="w-full py-4 mt-2 rounded bg-[#07241a] hover:bg-[#1e3a2f] text-white text-xs font-semibold uppercase tracking-widest shadow transition-all disabled:opacity-50"
+                  >
+                    {submitted ? t.modal.submitting : t.modal.submitButton}
+                  </button>
+                </form>
+              </>
+            )}
           </div>
         </div>
       )}
