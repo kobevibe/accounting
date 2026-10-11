@@ -18,7 +18,6 @@ export default function App() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [consultationModalOpen, setConsultationModalOpen] = useState(false);
-  const [selectedService, setSelectedService] = useState<string>("");
   
   // Interactive Calculator State
   const [employees, setEmployees] = useState(12);
@@ -36,12 +35,7 @@ export default function App() {
   const estimatedSavings = Math.max(0, inHouseCost - pacificCost);
   const savingsPercent = Math.round((estimatedSavings / inHouseCost) * 100);
 
-  const openServiceModal = (serviceTitle?: string) => {
-    if (serviceTitle) {
-      setSelectedService(serviceTitle);
-    } else {
-      setSelectedService(t.services[0].title);
-    }
+  const openServiceModal = () => {
     handleCloseModal(true);
   };
 
