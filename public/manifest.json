@@ -1,0 +1,15 @@
+{
+  "name": "Pacific Accounting",
+  "short_name": "Pacific",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f3",
+  "theme_color": "#071321",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
