@@ -705,16 +705,16 @@ export default function App() {
                   <span className="material-symbols-outlined text-3xl">done</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-serif text-2xl font-bold text-[#07241a]">Murojaatingiz qabul qilindi!</h3>
+                  <h3 className="font-serif text-2xl font-bold text-[#07241a]">{t.modal.successTitle}</h3>
                   <p className="text-xs text-[#424844] leading-relaxed max-w-sm mx-auto">
-                    PACIFIC ACCOUNTING mutaxassisi 2 soat ichida siz bilan bog'lanadi.
+                    {t.modal.successMessage}
                   </p>
                 </div>
                 <button
                   onClick={() => handleCloseModal(false)}
                   className="w-full py-4 rounded bg-[#07241a] text-white text-xs font-semibold uppercase tracking-widest hover:bg-[#1e3a2f] transition-all shadow"
                 >
-                  Yopish
+                  {t.modal.closeButton}
                 </button>
               </div>
             ) : (

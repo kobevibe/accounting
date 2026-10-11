@@ -93,7 +93,9 @@ export interface Translations {
     fieldService: string;
     submitButton: string;
     submitting: string;
+    successTitle: string;
     successMessage: string;
+    closeButton: string;
   };
   footer: {
     description: string;
@@ -325,7 +327,9 @@ export const translations: Record<Language, Translations> = {
       fieldService: "Интересующая услуга",
       submitButton: "Отправить заявку",
       submitting: "Отправка...",
+      successTitle: "Заявка успешно принята!",
       successMessage: "Благодарим за обращение! Специалист PACIFIC ACCOUNTING свяжется с вами в течение 2 часов.",
+      closeButton: "Закрыть",
     },
     footer: {
       description:
@@ -557,7 +561,9 @@ export const translations: Record<Language, Translations> = {
       fieldService: "Qiziqtirgan xizmat turi",
       submitButton: "Arizani yuborish",
       submitting: "Yuborilmoqda...",
+      successTitle: "Murojaatingiz qabul qilindi!",
       successMessage: "Murojaatingiz uchun tashakkur! PACIFIC ACCOUNTING mutaxassisi 2 soat ichida siz bilan bog'lanadi.",
+      closeButton: "Yopish",
     },
     footer: {
       description:
@@ -789,7 +795,9 @@ export const translations: Record<Language, Translations> = {
       fieldService: "Service of Interest",
       submitButton: "Submit Engagement Inquiry",
       submitting: "Submitting...",
+      successTitle: "Inquiry Successfully Received!",
       successMessage: "Thank you for reaching out. A senior PACIFIC ACCOUNTING partner will contact you within 2 hours.",
+      closeButton: "Close",
     },
     footer: {
       description:
