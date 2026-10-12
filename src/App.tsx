@@ -18,13 +18,14 @@ export default function App() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [consultationModalOpen, setConsultationModalOpen] = useState(false);
+  const [selectedService, setSelectedService] = useState<string>("");
   
   // Interactive Calculator State
   const [employees, setEmployees] = useState(12);
   const [monthlyDocs, setMonthlyDocs] = useState(180);
   
   // Form submission state
-  const [formData, setFormData] = useState({ name: "", phone: "" });
+  const [formData, setFormData] = useState({ name: "", phone: "", service: "" });
   const [submitted, setSubmitted] = useState(false);
   const [success, setSuccess] = useState(false);
 
@@ -35,7 +36,14 @@ export default function App() {
   const estimatedSavings = Math.max(0, inHouseCost - pacificCost);
   const savingsPercent = Math.round((estimatedSavings / inHouseCost) * 100);
 
-  const openServiceModal = (_serviceTitle?: string) => {
+  const openServiceModal = (serviceTitle?: string) => {
+    if (serviceTitle) {
+      setSelectedService(serviceTitle);
+      setFormData((prev) => ({ ...prev, service: serviceTitle }));
+    } else {
+      setSelectedService(t.services[0].title);
+      setFormData((prev) => ({ ...prev, service: t.services[0].title }));
+    }
     handleCloseModal(true);
   };
 
@@ -45,7 +53,7 @@ export default function App() {
     setTimeout(() => {
       setSubmitted(false);
       setSuccess(true);
-      setFormData({ name: "", phone: "" });
+      setFormData({ name: "", phone: "", service: "" });
     }, 800);
   };
 
@@ -53,7 +61,7 @@ export default function App() {
     setConsultationModalOpen(isOpen);
     if (!isOpen) {
       setSuccess(false);
-      setFormData({ name: "", phone: "" });
+      setFormData({ name: "", phone: "", service: "" });
     }
   };
 
@@ -727,6 +735,13 @@ export default function App() {
                     {t.modal.subtitle}
                   </p>
                 </div>
+
+                {formData.service && (
+                  <div className="mb-4 p-3 rounded bg-[#eae8e2]/70 border border-[#c1c8c3]/40 text-xs text-[#07241a] font-semibold flex items-center gap-2">
+                    <span className="material-symbols-outlined text-base text-[#775a19]">bookmark</span>
+                    <span>{formData.service}</span>
+                  </div>
+                )}
 
                 <form onSubmit={handleConsultationSubmit} className="space-y-4">
                   <div>
