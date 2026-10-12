@@ -35,7 +35,7 @@ export default function App() {
   const estimatedSavings = Math.max(0, inHouseCost - pacificCost);
   const savingsPercent = Math.round((estimatedSavings / inHouseCost) * 100);
 
-  const openServiceModal = () => {
+  const openServiceModal = (_serviceTitle?: string) => {
     handleCloseModal(true);
   };
 
